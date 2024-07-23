@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #87b5b5;
+}
+.header{
+  text-align: center;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#preview img{
+  width: 300px;
+  height: 250px;
+}
+#preview table{
+  border-collapse: collapse;
+}
+#preview th, #preview td {
+  border: 1px solid black; /* Border for table cells */
+  padding: 12px;
+  text-align: left;
+}
+#preview pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+#preview code {
+  background: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.subHeader{
+  text-align: center;
+}
